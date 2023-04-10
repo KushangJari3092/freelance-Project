@@ -9,6 +9,7 @@ body {
   justify-content: space-between;
   /* border: 2px solid red; */
   height: 164px;
+  z-index: 1;
 }
 .logoImg {
   position: absolute;
@@ -23,12 +24,12 @@ body {
   flex-direction: row;
   align-items: center;
   padding: 0px;
-  gap: 25px;
+  gap: 28px;
 
   position: absolute;
   width: 456px;
   height: 52px;
-  left: 140vh;
+  left: 137vh;
   top: 61px;
 }
 .a {
@@ -42,7 +43,7 @@ body {
   line-height: 19px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #1aa6b7;
+  color: #1aa6b7 !important;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -60,4 +61,56 @@ body {
   flex: none;
   order: 1;
   flex-grow: 0;
+}
+@media only screen and (max-width: 1050px) {
+  .navbar {
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .frame138 {
+    /* border: 2px solid rgb(47, 6, 143); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    left: 66%;
+    top: 9vh;
+  }
+  .logoImg {
+    width: 70px;
+    height: 55px;
+    left: 3vh;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .navbar-toggler {
+    position: absolute;
+    right: 3vh;
+    top: 6vh;
+    border: 0;
+    /* left: 80%; */
+  }
+  .navbar-nav {
+    position: relative;
+    background-color: #1aa7b70c;
+    border-radius: 10px;
+
+    /* border: 2px solid black; */
+    height: 25vh;
+  }
+  .callLogo {
+    margin-left: 0;
+  }
+  .toggleNav {
+    width: 30px;
+    height: 12px;
+  }
 }
