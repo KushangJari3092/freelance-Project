@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
 }
-.rightImgDiv {
+.rectangle31 {
   /* border: 2px solid black; */
   position: absolute;
   width: 50%;
@@ -13,23 +13,7 @@ body {
   z-index: -1;
   background: #f2f2f2;
 }
-.l1 {
-  position: absolute;
-  width: 233px;
-  height: 19px;
-  left: 80px;
-  top: 240px;
-
-  font-family: "Syne";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #333333;
-}
-.x {
+.mainHomeImg {
   /* border: 2px solid red; */
   width: 50%;
   background: url("../assets/homeDiv1Right.png");
@@ -50,4 +34,180 @@ body {
 }
 .a {
   color: white !important;
+}
+.l1 {
+  position: absolute;
+  width: 233px;
+  height: 19px;
+  left: 80px;
+  top: 240px;
+
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #333333;
+}
+.l2 {
+  position: absolute;
+  width: 496px;
+  height: 86px;
+  left: 80px;
+  top: 270px;
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #1aa6b7;
+}
+.content {
+  position: absolute;
+  width: 505px;
+  height: 145px;
+  left: 80px;
+  top: 375px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+
+  /* Gray 3 */
+
+  color: #828282;
+}
+.getInTouchBtn {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 30px;
+  gap: 8px;
+  left: 80px;
+  top: 520px;
+  width: 288px;
+  height: 47px;
+  border: 0;
+  background: #1aa6b7;
+  border-radius: 30px;
+}
+.getInTouchTxt {
+  width: 228px;
+  height: 19px;
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.plusBtn {
+  position: absolute;
+  left: 40px;
+  top: 880px;
+}
+.plusBtnTxt {
+  position: absolute;
+  width: fit-content;
+  height: 19px;
+  left: -60px;
+  top: 728.02px;
+  /* border: 2px solid red; */
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  transform: rotate(-90deg);
+}
+@media only screen and (max-width: 1050px) {
+  .mainHomeImg {
+    /* border: 2px solid red; */
+    position: absolute;
+    width: 361px;
+    height: 435px;
+    left: 16px;
+    top: 420px;
+    border-radius: 10px;
+  }
+  .rectangle31 {
+    position: absolute;
+    width: 100%;
+    height: 110vh;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    background: #f2f2f2;
+  }
+  .blurBox {
+    border: 2px solid green;
+    display: none;
+  }
+  .a {
+    color: #1aa6b7 !important;
+    font-size: small;
+  }
+  .l1 {
+    top: 18vh;
+    left: 4vh;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .l2 {
+    width: 292px;
+    height: 58px;
+    top: 20.5vh;
+    left: 4vh;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .content {
+    width: fit-content;
+    top: 29vh;
+    left: 4vh;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .getInTouchBtn {
+    position: absolute;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: center;
+    align-items: center; */
+    padding: 15px 20px;
+    top: 40vh;
+    left: 4vh;
+    width: 231px;
+    height: 50px;
+  }
+  .getInTouchTxt {
+    font-size: small;
+  }
+  .plusBtn {
+    position: absolute;
+    left: 4vh;
+    top: 870px;
+  }
+  .plusBtnTxt {
+    position: absolute;
+    /* border: 2px solid red; */
+    width: fit-content;
+    height: fit-content;
+    left: 95px;
+    top: 885px;
+    color: #1aa6b7;
+    transform: rotate(0deg);
+  }
 }

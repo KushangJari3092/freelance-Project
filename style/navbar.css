@@ -72,17 +72,7 @@ body {
     justify-content: space-between;
     align-items: center;
   }
-  .frame138 {
-    /* border: 2px solid rgb(47, 6, 143); */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    width: fit-content;
-    height: fit-content;
-    left: 66%;
-    top: 9vh;
-  }
+
   .logoImg {
     width: 70px;
     height: 55px;
@@ -100,11 +90,21 @@ body {
   }
   .navbar-nav {
     position: relative;
-    background-color: #1aa7b70c;
+    background-color: #eaeaea;
     border-radius: 10px;
-
     /* border: 2px solid black; */
-    height: 25vh;
+    height: 30vh;
+  }
+  .frame138 {
+    /* border: 2px solid rgb(47, 6, 143); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    left: 70%;
+    top: 9vh;
   }
   .callLogo {
     margin-left: 0;
