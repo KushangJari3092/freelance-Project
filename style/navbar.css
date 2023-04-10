@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  height: 164px;
+}
+.logoImg {
+  position: absolute;
+  width: 115.5px;
+  height: 92.44px;
+  left: 80px;
+  top: 40px;
+}
+.frame138 {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 25px;
+
+  position: absolute;
+  width: 456px;
+  height: 52px;
+  left: 140vh;
+  top: 61px;
+}
+.a {
+  width: fit-content;
+  height: 19px;
+  text-decoration: none;
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #1aa6b7;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.callLogo {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: row;
+  margin-top: -15px;
+  margin-left: 45px;
+  width: 52px;
+  height: 52px;
+  background: #1aa6b7;
+  border-radius: 64px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
