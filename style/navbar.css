@@ -62,7 +62,7 @@ body {
   order: 1;
   flex-grow: 0;
 }
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 920px) {
   .navbar {
     /* border: 2px solid black; */
     width: 100%;
@@ -103,7 +103,7 @@ body {
     padding: 10px;
     width: fit-content;
     height: fit-content;
-    left: 70%;
+    left: 82%;
     top: 9vh;
   }
   .callLogo {
@@ -112,5 +112,11 @@ body {
   .toggleNav {
     width: 30px;
     height: 12px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .frame138 {
+    left: 65%;
+    top: 9vh;
   }
 }
