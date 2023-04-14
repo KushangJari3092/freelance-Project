@@ -6,14 +6,13 @@
 
 .container-fluid {
     max-width: 100%;
-    overflow-x: hidden;
 }
 
 .title-syne {
     font-family: 'Syne';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2rem;
     line-height: 48px;
     text-align: start;
     color: #1AA6B7;
@@ -38,45 +37,47 @@
 
 .about-card:nth-child(1) {
     background-image: url("../assets/About_1.png");
-    width: 385px;
+    background-size: cover;
+    background-position: center;
     height: 375px;
 }
 
 .about-card:nth-child(2) {
     background-image: url("../assets/About_2.png");
-    width: 385px;
+    background-size: cover;
+    background-position: center;
     height: 375px;
 }
 
 .about-card:nth-child(3) {
     background-image: url("../assets/About_3.png");
-    width: 385px;
+    background-size: cover;
+    background-position: center;
     height: 375px;
 }
 
-
 .founderimg {
-    background-image: url("../assets/Founder.png");
+    background: url("../assets/Founder.png");
     background-size: cover;
-    z-index: 2;
-    color: white;
-    width: 75vw !important;
     height: 646px;
+    width: 486px;
 }
 
 .foundertxt {
-    position: relative;
-    top: 180px;
-    left: -2%;
-    max-width: 1000px;
-    max-height: 500px;
     background: #D6F2F5;
     border-radius: 30px 0px 0px 30px;
-}
-
-.knowbtn {
-    border: 2px solid #1AA6B7;
-    border-radius: 64px;
+    width: 1075px;
+    height: 596px;
+    position: relative;
+    top: 104px;
+    right: 143px;
+    z-index: -1;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 136.02%;
+    color: #1AA6B7;
 }
 
 /* Points section*/
@@ -85,34 +86,10 @@
     background: url("../assets/Points_design.png");
 }
 
-.points-desc {
+/* .points-desc {
     width: 647px;
     height: 133px;
-}
-
-.points-desc:nth-child(1) {
-    margin-left: 5%;
-}
-
-.points-desc:nth-child(2) {
-    margin-left: 10%;
-}
-
-.points-desc:nth-child(3) {
-    margin-left: 15%;
-}
-
-.points-desc:nth-child(4) {
-    margin-left: 20%;
-}
-
-.points-desc:nth-child(5) {
-    margin-left: 25%;
-}
-
-.points-desc img {
-    height: 100px;
-}
+} */
 
 .points-desc-p {
     background: #FFFFFF;
@@ -187,5 +164,28 @@
 
     .subscribe-button {
         margin-bottom: 20px;
+    }
+
+    .founderimg {
+        width: 360px;
+        height: 419px;
+    }
+
+    .foundertxt {
+        z-index: 2;
+        top: -100px;
+        right: -10px;
+        font-size: 16px;
+        width: 431px;
+        height: 461px;
+    }
+
+    .points-desc img {
+        width: 50px;
+        height: 120px;
+    }
+
+    .points-desc-p {
+        font-size: 16px;
     }
 }
