@@ -223,6 +223,7 @@
   background: #1aa6b7;
   border-radius: 30px;
 }
+
 @media (min-width: 1024px) {
   .prodPc {
     display: block;
