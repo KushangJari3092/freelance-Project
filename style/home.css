@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap");
+
 body {
   margin: 0;
   padding: 0;
 }
+
 .rectangle31 {
   position: absolute;
   left: 0px;
@@ -10,6 +12,7 @@ body {
   z-index: -1;
   background: #f2f2f2;
 }
+
 .mainHomeImg {
   background: url("../assets/homeDiv1Right.png");
   position: absolute;
@@ -17,13 +20,16 @@ body {
   background-repeat: no-repeat;
   z-index: -1;
 }
+
 .blurBox {
   background: rgba(0, 0, 0, 0.06);
   backdrop-filter: blur(9px);
 }
+
 .a {
   color: white !important;
 }
+
 .l1 {
   position: absolute;
   font-family: "Syne";
@@ -33,6 +39,7 @@ body {
   text-transform: uppercase;
   color: #333333;
 }
+
 .l2 {
   position: absolute;
   font-family: "Syne";
@@ -42,6 +49,7 @@ body {
   text-transform: uppercase;
   color: #1aa6b7;
 }
+
 .content {
   position: absolute;
   font-family: "Inter";
@@ -50,6 +58,7 @@ body {
 
   color: #828282;
 }
+
 .getInTouchBtn {
   position: absolute;
   display: flex;
@@ -60,6 +69,7 @@ body {
   background: #1aa6b7;
   border-radius: 30px;
 }
+
 .getInTouchTxt {
   font-family: "Syne";
   font-style: normal;
@@ -68,9 +78,11 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
+
 .plusBtn {
   position: absolute;
 }
+
 .plusBtnTxt {
   position: absolute;
   width: fit-content;
@@ -80,6 +92,7 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+
 .outProducts {
   position: absolute;
   width: fit-content;
@@ -89,6 +102,7 @@ body {
   text-transform: uppercase;
   color: #1aa6b7;
 }
+
 .viewAllBtn {
   display: flex;
   justify-content: center;
@@ -124,17 +138,20 @@ body {
     width: 50%;
     height: 135vh;
   }
+
   .mainHomeImg {
     top: 0;
     width: 50%;
     height: 135vh;
     left: 50%;
   }
+
   .blurBox {
     width: 100%;
     height: 174px;
     left: 604px;
   }
+
   .l1 {
     position: absolute;
     line-height: 19px;
@@ -144,6 +161,7 @@ body {
     left: 80px;
     top: 240px;
   }
+
   .l2 {
     width: 496px;
     height: 86px;
@@ -152,6 +170,7 @@ body {
     font-size: 36px;
     line-height: 43px;
   }
+
   .content {
     width: 505px;
     height: 145px;
@@ -160,6 +179,7 @@ body {
     font-size: 20px;
     line-height: 29px;
   }
+
   .getInTouchBtn {
     padding: 14px 30px;
     gap: 8px;
@@ -168,16 +188,19 @@ body {
     width: 288px;
     height: 47px;
   }
+
   .getInTouchTxt {
     width: 228px;
     height: 19px;
     font-size: 16px;
     line-height: 19px;
   }
+
   .plusBtn {
     left: 40px;
     top: 880px;
   }
+
   .plusBtnTxt {
     height: 19px;
     left: -60px;
@@ -186,6 +209,7 @@ body {
     line-height: 19px;
     transform: rotate(-90deg);
   }
+
   .outProducts {
     /* border: 2px solid red; */
     width: 100%;
@@ -195,6 +219,7 @@ body {
     font-size: 40px;
     line-height: 48px;
   }
+
   .viewAllBtn {
     position: absolute;
     width: 25vh;
@@ -204,6 +229,7 @@ body {
     font-size: 15px;
   }
 }
+
 @media (min-width: 769px) and (max-width: 1023px) {
   .rectangle31 {
     width: 55%;
@@ -211,17 +237,20 @@ body {
     height: 60vh;
     z-index: 0;
   }
+
   .mainHomeImg {
     top: 0;
     width: 50%;
     height: 60vh;
     left: 50%;
   }
+
   .blurBox {
     width: 100%;
     height: 174px;
     left: 604px;
   }
+
   .l1 {
     position: absolute;
     line-height: 19px;
@@ -231,6 +260,7 @@ body {
     left: 80px;
     top: 210px;
   }
+
   .l2 {
     width: 400px;
     height: 86px;
@@ -239,6 +269,7 @@ body {
     font-size: 28px;
     line-height: 40px;
   }
+
   .content {
     /* border: 2px solid red; */
     width: 350px;
@@ -248,6 +279,7 @@ body {
     font-size: 18px;
     line-height: 25px;
   }
+
   .getInTouchBtn {
     padding: 14px 30px;
     gap: 8px;
@@ -256,16 +288,19 @@ body {
     width: 288px;
     height: 47px;
   }
+
   .getInTouchTxt {
     width: 228px;
     height: 19px;
     font-size: 16px;
     line-height: 19px;
   }
+
   .plusBtn {
     left: 40px;
     top: 640px;
   }
+
   .plusBtnTxt {
     height: 19px;
     left: -40px;
@@ -274,6 +309,7 @@ body {
     line-height: 19px;
     transform: rotate(-90deg);
   }
+
   .outProducts {
     width: 100%;
     height: 48px;
@@ -281,6 +317,7 @@ body {
     padding-left: 4vh;
     font-size: 30px;
   }
+
   .viewAllBtn {
     position: absolute;
     /* width: 25vh; */
@@ -291,6 +328,7 @@ body {
     font-size: 15px;
   }
 }
+
 @media (max-width: 768px) {
   .mainHomeImg {
     position: absolute;
@@ -301,6 +339,7 @@ body {
     right: 0;
     border-radius: 10px;
   }
+
   .rectangle31 {
     position: absolute;
     width: 100%;
@@ -310,20 +349,24 @@ body {
     z-index: -1;
     background: #f2f2f2;
   }
+
   .blurBox {
     border: 2px solid green;
     display: none;
   }
+
   .a {
     color: #1aa6b7 !important;
     font-size: small;
   }
+
   .l1 {
     top: 18vh;
     left: 4vh;
     font-size: 12px;
     line-height: 14px;
   }
+
   .l2 {
     width: 292px;
     height: 58px;
@@ -332,6 +375,7 @@ body {
     font-size: 24px;
     line-height: 29px;
   }
+
   .content {
     width: 40vh;
     top: 29vh;
@@ -340,6 +384,7 @@ body {
     font-size: 14px;
     line-height: 17px;
   }
+
   .getInTouchBtn {
     padding: 0;
     top: 35vh;
@@ -349,14 +394,17 @@ body {
     width: 26vh;
     border-radius: 100px;
   }
+
   .getInTouchTxt {
     font-size: small;
   }
+
   .plusBtn {
     position: absolute;
     left: 4vh;
     top: 870px;
   }
+
   .plusBtnTxt {
     position: absolute;
     /* border: 2px solid red; */
@@ -367,6 +415,7 @@ body {
     color: #1aa6b7;
     transform: rotate(0deg);
   }
+
   .outProducts {
     width: 100%;
     height: 48px;
@@ -374,6 +423,7 @@ body {
     padding-left: 4vh;
     font-size: 30px;
   }
+
   .viewAllBtn {
     position: absolute;
     /* width: 25vh; */
