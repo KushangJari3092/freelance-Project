@@ -119,10 +119,10 @@ body {
   margin-top: 150vh;
 }
 .leftdiv {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 .rightdiv {
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 .ll1 {
   font-family: "Syne";
@@ -159,6 +159,9 @@ body {
   position: absolute;
   z-index: -1;
 }
+.aboutus {
+  margin-top: 130vh;
+}
 /* .slider {
   display: flex;
   flex-direction: column;
@@ -178,7 +181,66 @@ body {
   order: 0;
   flex-grow: 0;
 } */
+.c-start {
+  background: #e9ebea;
+  border-radius: 30px;
+}
+
+#knowbtn {
+  background: #333333;
+  border-radius: 64px;
+  color: #ffffff;
+  padding: 4%;
+  width: 15em;
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+#c-para {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4f4f4f;
+  margin-bottom: 1px;
+}
+
+#c-h1 {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #1aa6b7;
+}
+
+#c-desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 147.52%;
+  color: #4f4f4f;
+}
+.carousal {
+  margin-top: 130vh !important;
+}
 @media (min-width: 1024px) {
+  .pimg {
+    display: none;
+  }
   .rectangle31 {
     width: 50%;
     height: 135vh;
@@ -274,6 +336,9 @@ body {
     font-size: 15px;
   }
 
+  .aboutus {
+    margin-top: 15vh;
+  }
   .leftdiv {
     width: 40%;
   }
@@ -405,6 +470,9 @@ body {
     color: white;
     font-size: 15px;
   }
+  .aboutus {
+    margin-top: 10vh;
+  }
   .leftdiv {
     width: 40%;
   }
@@ -423,6 +491,7 @@ body {
     font-size: 15px;
     width: 90%;
   }
+
   .hbimg {
     height: 35vh;
     width: 35vh;
@@ -441,6 +510,12 @@ body {
     margin-top: -4vh;
     margin-left: -8vh;
     z-index: -1;
+  }
+  .carousal {
+    margin-top: 55vh !important;
+  }
+  .pimg {
+    display: none;
   }
 }
 
@@ -544,24 +619,21 @@ body {
     /* width: 25vh; */
     padding: 1vh;
     left: 2vh;
-    top: 52vh;
+    top: 80vh;
     color: white;
     font-size: 15px;
   }
-
 
   .aboutus {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 200vh !important;
+    margin-top: 195vh !important;
   }
   .leftdiv {
-    border: 2px solid blue;
     width: 100%;
   }
   .rightdiv {
-    border: 2px solid green;
     width: 100%;
     padding: 2vh;
   }
@@ -597,5 +669,8 @@ body {
     margin-top: -6vh;
     margin-left: -10vh;
     z-index: -1;
+  }
+  .carousal {
+    display: none;
   }
 }
