@@ -278,8 +278,9 @@ body {
   font-family: "Syne";
   font-style: normal;
   font-weight: 700;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin: 10vh;
+  margin-left: 10vh !important;
 }
 .topquality {
   width: fit-content;
@@ -294,20 +295,17 @@ body {
   font-weight: 500;
 }
 .carouseltxt {
-  /* width: ; */
   width: 361px;
   height: 120px;
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 1.52% !important;
-  /* or 30px */
-
-  /* Gray 2 */
-
+  text-align: left;
   color: #4f4f4f;
+}
+.testimonial-group::-webkit-scrollbar {
+  display: none;
 }
 @media (min-width: 1024px) {
   .pimg {
@@ -442,6 +440,9 @@ body {
     width: 22vh;
     margin-top: -6vh;
     margin-left: -8vh;
+  }
+  .eachGray {
+    width: 75%;
   }
 }
 
@@ -588,6 +589,29 @@ body {
   }
   .pimg {
     display: none;
+  }
+  .eachGray {
+    width: 100%;
+  }
+  .carouselcontent {
+    margin: 10vh;
+    margin-left: 0vh !important;
+    padding: 2vh;
+  }
+  .topquality {
+    font-size: medium;
+    font-weight: 500;
+  }
+  .printers {
+    font-size: medium;
+    font-weight: 500;
+  }
+  .carouseltxt {
+    width: 361px;
+    height: 120px;
+
+    font-size: 15px;
+    text-align: left;
   }
 }
 
