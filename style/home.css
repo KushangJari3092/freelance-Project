@@ -237,6 +237,78 @@ body {
 .carousal {
   margin-top: 130vh !important;
 }
+/* slider */
+.testimonial-group > .row {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.testimonial-group > .row > .col-4 {
+  display: inline-block;
+}
+
+/* Decorations */
+.col-4 {
+  color: #fff;
+  font-size: 48px;
+  padding-bottom: 20px;
+  padding-top: 18px;
+}
+.col-4:nth-child(3n + 1) {
+  /* background: #c69; */
+}
+.col-4:nth-child(3n + 2) {
+  /* background: #9c6; */
+}
+.col-4:nth-child(3n + 3) {
+  background: #69c;
+}
+.grayBox {
+  display: flex;
+  flex-direction: row;
+  padding: 45px 40px;
+  gap: 10px;
+
+  /* width: fit-content;
+  height: 600px; */
+  background: #e9ebea;
+  border-radius: 30px;
+}
+.carouselcontent {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  border: 2px solid red;
+  margin: 10vh;
+}
+.topquality {
+  width: fit-content;
+  color: #333333;
+  font-size: large;
+  font-weight: 500;
+}
+.printers {
+  width: fit-content;
+  color: #1aa6b7;
+  font-size: larger;
+  font-weight: 500;
+}
+.carouseltxt {
+  /* width: ; */
+  width: 361px;
+  height: 120px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.52% !important;
+  /* or 30px */
+
+  /* Gray 2 */
+
+  color: #4f4f4f;
+}
 @media (min-width: 1024px) {
   .pimg {
     display: none;
