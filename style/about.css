@@ -374,15 +374,19 @@
   .footer {
     height: 77vh;
     display: flex;
+    margin: 2vh;
     flex-direction: column;
   }
   .copyright {
     font-weight: 700;
-    padding-bottom: 3vh;
-    margin-top: 10vh;
+    padding-bottom: 0vh;
+    margin-top: 10vh !important;
     text-align: center;
   }
   .mainfooter {
     margin-top: 65vh;
+  }
+  .socials {
+    margin-top: 80vh !important;
   }
 }

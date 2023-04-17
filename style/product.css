@@ -149,7 +149,7 @@
 }
 .arrows {
   /* border: 2px solid red; */
-  width: fit-content;
+  /* width: 25%; */
 }
 .parent {
   position: relative;
@@ -283,8 +283,8 @@
   }
   .arrows {
     position: absolute;
-    margin-top: 69vh;
-    left: -45vh;
+    margin-top: 75vh;
+    left: -60vh;
     /* margin-right: -20vh !important; */
   }
   .parent {
@@ -368,11 +368,13 @@
   .profile {
     height: 5vh;
     width: 5vh;
+    margin-top: 2vh;
   }
   .name {
     font-size: 22px;
     line-height: 140.52%;
     padding-left: 1vh;
+    margin-top: 2vh;
   }
   .small {
     font-weight: normal;
@@ -380,8 +382,9 @@
   }
   .arrows {
     position: absolute;
-    margin-top: 32vh;
+    margin-top: 35vh;
     left: -18vh;
+    width: 30% !important;
     /* margin-right: -20vh !important; */
   }
   .parent {
@@ -428,7 +431,7 @@
     margin-top: 10vh;
   }
   .getquote {
-    width: 22vh;
+    width: 22.5vh;
   }
   .loadmore {
     font-size: 18px;
@@ -483,11 +486,13 @@
   .profile {
     height: 6vh;
     width: 6vh;
+    margin-top: 4vh;
   }
   .name {
     font-size: 17px;
     line-height: 140.52%;
     padding-left: 1vh;
+    margin-top: 4vh;
   }
   .small {
     font-weight: normal;
@@ -495,9 +500,9 @@
   }
   .arrows {
     position: absolute;
-    margin-top: 95vh;
-    width: 20vh;
-    left: -5vh;
+    margin-top: 98vh;
+    width: 70% !important;
+    left: 0vh;
     /* margin-right: -20vh !important; */
   }
   .parent {

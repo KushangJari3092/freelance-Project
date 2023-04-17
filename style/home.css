@@ -162,25 +162,7 @@ body {
 .aboutus {
   margin-top: 130vh;
 }
-/* .slider {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 40.2985px 35.8209px;
-  gap: 8.96px;
 
-  width: 360px;
-  height: 537.31px;
-
-
-  background: #e9ebea;
-  border-radius: 26.8657px;
-
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-} */
 .c-start {
   background: #e9ebea;
   border-radius: 30px;
@@ -631,7 +613,7 @@ body {
     width: 100%;
     height: 115vh;
     left: 0px;
-    top: 0px;
+    top: -2vh;
     z-index: -1;
     background: #f2f2f2;
   }
